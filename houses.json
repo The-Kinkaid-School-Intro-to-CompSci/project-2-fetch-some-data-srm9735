@@ -1,0 +1,45 @@
+{
+    "House": [
+      {
+        "House": "Gryffindor",
+        "Characteristics": "Bravery",
+        "Founder": "Godric Gryffindor",
+        "Color": "Red",
+        "Animal": "Lion",
+        "Ghost": "Nearly Headless Nick",
+        "Common Room": "Gryffindor Tower",
+        "FamousCharacters": ["Harry Potter", "Hermione Granger", "Ron Weasley"]
+      },
+      {
+        "House": "Slytherin",
+        "Characteristics": "Ambition",
+        "Founder": "Salazar Slytherin",
+        "Color": "Green",
+        "Animal": "Serpent",
+        "Ghost": "The Bloody Baron",
+        "Common Room": "Slytherin Dungeon",
+        "FamousCharacters": ["Severus Snape", "Draco Malfoy", "Tom Riddle"]
+      },
+      {
+        "House": "Ravenclaw",
+        "Characteristics": "Intelligence",
+        "Founder": "Rowena Ravenclaw",
+        "Color": "Blue",
+        "Animal": "Eagle",
+        "Ghost": "The Grey Lady",
+        "Common Room": "Ravenclaw Tower",
+        "FamousCharacters": ["Luna Lovegood", "Cho Chang", "Filius Flitwick"]
+      },
+      {
+        "House": "Hufflepuff",
+        "Characteristics": "Loyalty",
+        "Founder": "Helga Hufflepuff",
+        "Color": "Yellow",
+        "Animal": "Badger",
+        "Ghost": "The Fat Friar",
+        "Common Room": "Hufflepuff Basement",
+        "FamousCharacters": ["Cedric Diggory", "Nymphadora Tonks", "Pomona Sprout"]
+      }
+    ]
+  }
+  

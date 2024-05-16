@@ -1,13 +1,32 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>The name of your website</title> 
-        <link rel="stylesheet" href="styles.css">
-        <script type="text/javascript" src="script.js"></script>
-    </head>
-    <body>
-        Your HTML goes here
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter House Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">  
+        <img src="https://1000logos.net/wp-content/uploads/2021/04/Hogwarts-Logo.png" alt="Hogwarts Logo">
+        <h1>Harry Potter House Quiz</h1>
+        <div class="question">
+            <h2>What is your favorite color?</h2>
+            <div id="optionsContainer" class="options">
+                <input type="radio" id="Blue" name="color" value="Blue"> <!--creeate group of radio elements, each a color opt-->
+                <label for="Blue">Blue</label><br>
+                <input type="radio" id="Red" name="color" value="Red">
+                <label for="Red">Red</label><br>
+                <input type="radio" id="Green" name="color" value="Green">
+                <label for="Green">Green</label><br>
+                <input type="radio" id="Yellow" name="color" value="Yellow">
+                <label for="Yellow">Yellow</label><br>
+            </div>
+        </div>
+        <button id="submitBtn">Submit</button>
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
