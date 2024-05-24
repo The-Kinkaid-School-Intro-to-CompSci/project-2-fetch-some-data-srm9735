@@ -3,7 +3,7 @@ const submitBtn = document.getElementById('submitBtn'); //retroeves submit butto
 
 submitBtn.addEventListener('click', async () => {
     const radios = document.querySelectorAll('input[type="radio"]'); // collect all the radio buttons on the webpage and save them in a radios list
-    let selectedColor = ''; // empty, will store the color of selected radio button
+    let selectedColor = ''; 
 
     for (let i = 0; i < radios.length; i++) {
         if (radios[i].checked) { //checks if radio input element is selected by user
@@ -47,7 +47,7 @@ submitBtn.addEventListener('click', async () => {
         ghostItem.textContent = `Ghost: ${house.Ghost}`;
         characteristicsList.appendChild(ghostItem);
         const commonRoomItem = document.createElement('li');
-        commonRoomItem.textContent = `Common Room: ${house["Common Room"]}`;
+        commonRoomItem.textContent = `Common Room: ${house.CommonRoom}`;
         characteristicsList.appendChild(commonRoomItem);
         const famousCharactersItem = document.createElement('li');
         famousCharactersItem.textContent = `Famous Characters: ${house.FamousCharacters.join(', ')}`; // separates name of characters in commas

@@ -7,7 +7,7 @@
         "Color": "Red",
         "Animal": "Lion",
         "Ghost": "Nearly Headless Nick",
-        "Common Room": "Gryffindor Tower",
+        "CommonRoom": "Gryffindor Tower",
         "FamousCharacters": ["Harry Potter", "Hermione Granger", "Ron Weasley"]
       },
       {
@@ -17,7 +17,7 @@
         "Color": "Green",
         "Animal": "Serpent",
         "Ghost": "The Bloody Baron",
-        "Common Room": "Slytherin Dungeon",
+        "CommonRoom": "Slytherin Dungeon",
         "FamousCharacters": ["Severus Snape", "Draco Malfoy", "Tom Riddle"]
       },
       {
@@ -27,7 +27,7 @@
         "Color": "Blue",
         "Animal": "Eagle",
         "Ghost": "The Grey Lady",
-        "Common Room": "Ravenclaw Tower",
+        "CommonRoom": "Ravenclaw Tower",
         "FamousCharacters": ["Luna Lovegood", "Cho Chang", "Filius Flitwick"]
       },
       {
@@ -37,7 +37,7 @@
         "Color": "Yellow",
         "Animal": "Badger",
         "Ghost": "The Fat Friar",
-        "Common Room": "Hufflepuff Basement",
+        "CommonRoom": "Hufflepuff Basement",
         "FamousCharacters": ["Cedric Diggory", "Nymphadora Tonks", "Pomona Sprout"]
       }
     ]
